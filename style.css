@@ -1,0 +1,36 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 14px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    width: 100%;
+    background: linear-gradient(to left, #fff, rgb(233, 227, 227), #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input{
+    border: 1px solid rgb(116, 106, 106);
+    background: none;
+    width: 450px;
+}
+button{
+    margin-top: 10px;
+}
+strong{
+    margin-top: 15px;
+}
